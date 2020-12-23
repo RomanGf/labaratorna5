@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <header class="header">
+        <div class="loggo">
+            <h1>Join us at PyCon</h1>
+        </div>
+        <div class="text" id="in_text" >
+            <p id="in_header">The international community for the Python programming language holds several conferences (PyCons) each year.</p>
+        </div>
+    </header>
+    <div class="Container">
+        <div class="intro" id="in_intro">
+            <a href="Fpage.html">First page</a>
+            <a href="Spage.html">Second page</a>
+            <a href="Tpage.html">Third page</a>
+            <a href="index.html">Fourth page</a>
+            <a href="Fopage.html">Fivth page</a>
+        </div>
+        <div class="SecContainer">
+            <div class="header_inner" id="in_header_inner">
+                <h3>The PyCon 2019 conference, which will take place in Cleveland</h3>
+            </div>
+            <div class="Container_inner">
+                <div class="menu" id="in_menu">
+                    <h4>PyCon gives you opportunities to:</h4>
+                    <ol>
+                        <li>See a variety of presentations, panels, and impromptu discussions.
+                     </li>
+                        <li>Learn about significant advances in the Python development community.
+                     </li>
+                        <li>Meet fellow developers from around the world.
+                     </li>
+                     <li>Enroll in tutorials delivered by experts.</li>
+                     <li>Participate in development sprints with fellow enthusiasts.</li>
+                    </ol>
+                    <input type="email" id="focus_input">
+                    <div id="error"></div>
+                </div>
+                <div class="information" id="in_information">
+                    <input type="checkbox" id="first" onchange="check()"> I`m here
+                    <select id="fontSize" onclick="check()">
+                        <option value="1">1</option>      
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                      </select>
+                    <p id="som_text">Because PyCon is backed by the non-profit PSF, we keep registration costs much lower than comparable technology conferences so that PyCon remains accessible to the widest group possible. The PSF also pays for the ongoing development of the software that runs PyCon and makes it available under a liberal open source license. The PSF has paid staff to manage PyCon. Two employees work on planning and two employees work on the financial aspects of PyCon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer_text" id="in_footer">
+            <p>The international community for the Python programming language holds several conferences (PyCons) each year.</p>
+        </div>
+        <div class="footer_intro">
+            <h1>Join us at PyCon</h1>
+        </div>
+    </footer>
+    <div class="inputDiv">
+        <div>       
+            <input type="text" id="editText" placeholder="Write a length" > 
+            <button id="show"> Sort </button>	
+            <div id = 'arr1'></div>
+            <div id = 'arr2'></div>
+        </div>
+        
+    </div>
+    <div class="git">
+        <div class="git__input">
+            <input type="text" id="author" value="RomanGf" > 
+            <input type="text" id="repository" value="labaf.github.io" > 
+            <button id="getCommit">Commit</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <!-- <div class="inputDiv">
+        <div class="inputhelp1">
+            <div>
+            <input type="text" id="editText1" placeholder="block1" > 
+            <button id="but"> Вернуть</button>
+            </div>
+            <div>
+            <input type="text" id="editText2" placeholder="block2"> 
+            <button id="but2"> Вернуть</button>
+            </div>
+        </div>   
+        <div class="inputhelp1">
+            <div>
+            <input type="text" id="editText3" placeholder="block3">
+            <button id="but3"> Вернуть</button>
+            </div> 
+            <div>
+            <input type="text" id="editText4" placeholder="block4" > 
+            <button id="but4"> Вернуть</button>
+            </div>
+        </div>
+        <div class="inputhelp1"> 
+            <div>
+            <input type="text" id="editText5" placeholder="block5" > 
+            <button id="but5"> Вернуть</button>
+            </div>
+            <div>
+            <input type="text" id="editText6" placeholder="block6" > 
+            <button id="but6"> Вернуть</button>
+            </div>
+        </div>       -->
+    <script src="./main.js">
+
+    </script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>
+    
+    </script>
+</body>
+</html>
